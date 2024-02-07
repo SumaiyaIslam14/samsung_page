@@ -289,21 +289,35 @@
     color: rgb(136, 130, 130);
     padding-bottom: 60px;
 }
-.btn_1{
+
+.btn_btn{
+    background: none;
     border: 1px solid black;
-    height: 5vh;
-    width: 8vw;
     border-radius: 10px;
-    background-color: white;
+    height: 5vh;
+    width: 7vw;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    font-weight: bold;
 }
-.see_btn{
-    text-decoration: none;
-    color: black;
-}
-.btn_1:hover{
-    background-color: black;
-    transition: 2s;
-}
-.see_btn:hover{
+.btn_btn:hover{
     color: white;
+}
+.btn_btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn_1::before{
+    transform: scaleX(0);
+}
+.btn_1:hover::before{
+    transform: scaleX(1);
 }
