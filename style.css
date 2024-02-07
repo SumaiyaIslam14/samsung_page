@@ -208,3 +208,14 @@
     font-size: 22px;
     padding-top: 25px;
 }
+/* 2nd grid ends */
+
+.down_btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+.down_btn1{
+    color: rgb(199, 192, 181);
+}
