@@ -318,10 +318,66 @@
     height: 11vh;
     width: 27vw;
     border-radius: 25px 35px 0 0;
-    margin-left: 6.5%;
+    margin-left: 40%;
     clip-path: polygon(0% 0%, 59% 0, 78% 47%, 0 47%);
 }
 .mint{
     padding: 3%;
     font-size: 23px;
+}
+.cirsles_main1{
+    display: flex;
+    justify-content: center;
+}
+.green{
+    height: 35px;
+    width: 35px;
+    color: rgb(200,217,211);
+    font-size: 35px;
+    padding: 0 8px 5px 0px;
+}
+.black{
+    height: 35px;
+    width: 35px;
+    color: rgb(83,86,90);
+    font-size: 35px;
+    padding: 0 8px 5px 0px;
+}
+.cream{
+    height: 35px;
+    width: 35px;
+    color: rgb(240,234,225);
+    font-size: 35px;
+    padding: 0 8px 5px 0px;
+}
+.purple{
+    height: 35px;
+    width: 35px;
+    color: rgb(215,198,216);
+    font-size: 35px;
+    padding: 0 8px 5px 0px;
+}
+.cir{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 70px;
+    height: 30px;
+    width: 27px;
+    margin-right: 10px;
+}
+.cir:hover{
+    border: 2px solid rgb(32, 203, 255);
+}
+.phone_imgs_part_2{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 23px;
+    width: 80vw;
+    border-radius: 20px;
+    background-color: white;
+}
+.phone_full{
+    grid-row: 1/span 2;
+    height: 60vh;
+    border-radius: 25px;
 }
