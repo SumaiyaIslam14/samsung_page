@@ -399,7 +399,7 @@
     position: relative;
 }
 .dob_img{
-    height: 75vh;
+    height: 100vh;
     width: 50vw;
     margin-left: 11%;
     border-radius: 25px;
@@ -468,6 +468,41 @@
 .cir_d:hover{
     border: 2px solid rgb(32, 203, 255);
 }
+.double_phone_text{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    position: absolute;
+    gap: 10%;
+    top: 8%;
+    left: 8%;
+}
+.double_text1{
+    grid-row: 1 / span 3;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    width: 20vw;
+    padding-left: 20%;
+}
+.double_text2{
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 15px;
+    width: 20vw;
+    padding-left: 15%;
+}
+.double_text3{
+    padding-top: 5%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 15px;
+    padding-bottom: 5%;
+    padding-left: 15%;
+}
+.btn_360_2nd{
+    padding-left: 15%;
+}
 .case_part{
     display: flex;
     justify-content: center;
@@ -497,4 +532,54 @@
 .case_text2{
     font-size: 18px;
     font-weight: bolder;
+}
+/* big parts ends */
+.arrow_up{
+    padding-left: 90%;
+    position: sticky;
+    z-index: 1;
+}
+.arrow{
+    font-size: 45px;
+    color: rgb(180, 180, 180);
+}
+
+@media screen and (max-width:1200px) {
+    .double_phone_text{
+        top: 10%;
+    }
+    .case_part{
+        padding-right: 5%;
+    }
+    .case1{
+        width: 30vw;
+    }
+
+}
+@media screen and (max-width: 912px) {
+    .logo{
+        display: none;
+    }
+    .top_menu2{
+        justify-content: start;
+    }
+    .z_header{
+        padding-top: 10%;
+        flex-direction: column;
+    }
+    .z_header1{
+        padding-right: 40%;
+        font-size: 35px;
+    }
+    .z_image1{
+        width: 70vw;
+    }
+    .text_top{
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+    .grid_1{
+        width: 20vw;
+        padding-left: 40%;
+    }
 }
